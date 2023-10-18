@@ -1,0 +1,151 @@
+.isNotMobile {
+  display: unset;
+  @media (max-width: 767.98px) {
+    display: none;
+  }
+}
+.isMobile {
+  display: none;
+  @media (max-width: 767.98px) {
+    display: unset;
+  }
+}
+.containerBox {
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.header {
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 105px;
+  color: #e7e7e7;
+  @media (max-width: 767.98px) {
+    font-size: 50px;
+    line-height: 59px;
+    padding-left: 20px;
+  }
+}
+.box2 {
+  height: 256px;
+}
+.box3 {
+  height: 297px;
+}
+.columnWidth {
+  width: 50%;
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    width: 60%;
+  }
+}
+.title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 1.5px;
+  color: #c2c2c2;
+  @media (max-width: 767.98px) {
+    font-size: 28px;
+    line-height: 33px;
+  }
+}
+.borderNum {
+  width: 100%;
+  height: 5px;
+  border-radius: 2.5px;
+  @media (max-width: 767.98px) {
+    width: 17px;
+    height: 4px;
+  }
+}
+.num {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 1.5px;
+  padding-bottom: 4px;
+  @media (max-width: 767.98px) {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  @media (max-width: 767.98px) {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.footballer {
+  left: 5% !important;
+  width: 678px !important;
+  height: 905px !important;
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    left: -20% !important;
+    width: 498px !important;
+    height: 718px !important;
+    top: 86px !important;
+  }
+  @media (max-width: 767.98px) {
+    width: 218px !important;
+    height: 281px !important;
+    top: 70% !important;
+    left: 50% !important;
+    z-index: 2;
+    transform: translate(-50%, -50%) !important;
+  }
+}
+.baseketballer {
+  right: 5% !important;
+  left: unset !important;
+  width: 791px !important;
+  height: 715px !important;
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    right: -30% !important;
+
+    width: 691px !important;
+    height: 568px !important;
+  }
+  @media (max-width: 767.98px) {
+    width: 302px !important;
+    height: 250px !important;
+    top: 70% !important;
+    left: 50% !important;
+    z-index: 2;
+    transform: translate(-50%, -50%) !important;
+  }
+}
+.bg-carousel {
+  background-color: #f5f4f9;
+}
+
+.boxHeader {
+  height: 296px;
+  position: relative;
+}
+.header {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 59px;
+  color: #e7e7e7;
+  padding-left: 20px;
+}
+
+.boxImage {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.carousel .control-dots .dot.selected {
+  background: #5c3caf;
+}
